@@ -9,7 +9,7 @@ $amount = $_GET['amount'];
 $orderid = $_GET['orderid'];
 
 $api_key = '7c3c542b-8e8f-4f62-bc92-4f27b52b4f2a';
-$collection_id = 'vawjzhtr';
+$collection_id = 'rotv8fwj';
 $host = 'https://billplz-staging.herokuapp.com/api/v3/bills';
 
 
@@ -20,8 +20,8 @@ $data = array(
           'name' => $name,
           'amount' => $amount * 100, // RM20
 		  'description' => 'Payment for order id '.$orderid,
-          'callback_url' => "http://slumberjer.com/grocery/return_url",
-          'redirect_url' => "http://slumberjer.com/grocery/php/payment_update.php?userid=$email&mobile=$mobile&amount=$amount&orderid=$orderid" 
+          'callback_url' => "https://pdoc1.000webhostapp.com/return_url",
+          'redirect_url' => "https://pdoc1.000webhostapp.com/php/payment_update.php?userid=$email&mobile=$mobile&amount=$amount&orderid=$orderid" 
 );
 
 
