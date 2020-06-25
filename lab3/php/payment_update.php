@@ -72,7 +72,7 @@ if ($signed === $data['x_signature']) {
     } 
         else 
     {
-    echo 'Payment Failed!';
+    echo 'Payment failed, please try to remake payment from cart screen.';
     }
 }
 
